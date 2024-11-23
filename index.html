@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desarrollo Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Frame A: Título, nombre, valoración y enlace interno -->
+    <div class="frame-a">
+        <h1>Desarrollo Web</h1>
+        <p><strong>Autor:</strong> Iris Elizabeth Dávalos Torrico</p>
+        <p><strong>Valoración:</strong> ★★★★★</p>
+        <!-- Enlace a la sección B dentro de la misma página -->
+        <p><a href="#conocimientos-basicos">Ir a la sección Conocimientos Básicos</a></p>
+    </div>
+
+    <!-- Contenedor principal para las secciones B, C y D -->
+    <div class="main-container">
+        <!-- Frame B: Conocimientos Básicos -->
+        <div class="frame-b">
+            <h2>Conocimientos Básicos</h2>
+            <p>Para más información sobre Desarrollo Web, visita mi página interna <a href="interno.html">aquí</a>.</p>
+
+            <!-- Foto del autor -->
+            <img src="https://i.ibb.co/cT2b9rG/Perfil.jpg" alt="Perfil" class="foto-b">
+
+
+
+            <!-- Lista de conocimientos básicos -->
+            <ul>
+                <li><strong>HTML:</strong> Estructura básica de la web, etiquetas principales.</li>
+                <li><strong>CSS:</strong> Diseño y estilos, maquetación de páginas web.</li>
+                <li><strong>JavaScript:</strong> Programación para la interactividad y dinamismo de la página.</li>
+                <li><strong>Responsive Design:</strong> Crear páginas web que se adapten a cualquier dispositivo.</li>
+            </ul>
+            <!-- Enlace interno que regresa a Frame A -->
+            <p><a href="#inicio">Volver al inicio</a></p>
+        </div>
+
+        <!-- Frame C: Tabla de Registro -->
+        <div class="frame-c">
+            <h2>Tabla de Registro</h2>
+            <table>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Celular</th>
+                    <th>Fecha de Registro</th>
+                </tr>
+                <tr>
+                    <td>Fernanda Davalos</td>
+                    <td>7602055</td>
+                    <td>2024-11-01</td>
+                </tr>
+                <tr>
+                    <td>Pamela Torrico</td>
+                    <td>74918254</td>
+                    <td>2024-11-02</td>
+                </tr>
+
+               <tr>
+                    <td>Ana Gómez</td>
+                    <td>74654890</td>
+                    <td>2024-11-01</td>
+                </tr>
+
+            </table>
+        </div>
+
+        <!-- Frame D: Recursos Externos -->
+        <div class="frame-d">
+            <h2>Recursos Externos</h2>
+            <p>Visita este sitio para aprender más sobre desarrollo web: <a href="https://blog.hubspot.es/website/que-es-desarrollo-web" target="_blank">Web Docs</a></p>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,136 @@
+/* Reset de márgenes y padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo general del body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Frame A: Título, nombre, valoración y enlace */
+.frame-a {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 2px solid #333; /* Borde alrededor de la sección */
+    border-radius: 8px; /* Esquinas redondeadas */
+}
+
+.frame-a h1 {
+    margin-bottom: 10px;
+}
+
+.frame-a a {
+    color: white;
+    text-decoration: none;
+}
+
+.frame-a a:hover {
+    text-decoration: underline;
+}
+
+/* Contenedor principal para organizar las secciones B, C y D */
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap; /* Permite que se acomode en varias filas si no hay suficiente espacio */
+}
+
+/* Frame B: Conocimientos Básicos */
+.frame-b {
+    background-color: #f4f4f4;
+    padding: 20px;
+    width: 48%; /* Ajusta el tamaño para que quede al lado de la sección C */
+    flex: 1;
+    border: 2px solid #333; /* Borde alrededor de la sección */
+    border-radius: 8px; /* Esquinas redondeadas */
+}
+
+.frame-b h2 {
+    margin-bottom: 10px;
+}
+
+.frame-b ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.frame-b ul li {
+    margin-bottom: 10px;
+}
+
+.frame-b a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.frame-b a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para la foto en Frame B */
+.foto-b {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Frame C: Tabla de Registro */
+.frame-c {
+    background-color: #f4f4f4;
+    padding: 20px;
+    width: 48%; /* Ajusta el tamaño para que quede al lado de la sección B */
+    flex: 1;
+    border: 2px solid #333; /* Borde alrededor de la sección */
+    border-radius: 8px; /* Esquinas redondeadas */
+}
+
+.frame-c table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.frame-c th, .frame-c td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.frame-c th {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Frame D: Página Externa */
+.frame-d {
+    background-color: #f4f4f4;
+    padding: 20px;
+    width: 100%; /* Asegura que la sección D ocupe el ancho completo */
+    margin-top: 20px;
+    border: 2px solid #333; /* Borde alrededor de la sección */
+    border-radius: 8px; /* Esquinas redondeadas */
+}
+
+.frame-d h2 {
+    margin-bottom: 10px;
+}
+
+.frame-d a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.frame-d a:hover {
+    text-decoration: underline;
+}
